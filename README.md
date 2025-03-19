@@ -1,1 +1,3 @@
-# KaziAmin110.github.io
+## Personal Portfolio
+
+![Portfolio Website](https://i.ibb.co/WgPMpts/image.png)
