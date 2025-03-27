@@ -15,6 +15,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: center;
     color: var(--color-text);
     z-index: 1;
 }
@@ -46,8 +47,13 @@
     box-shadow: 0 0 4px 0 rgba(0, 0, 0 , 0.25);
 }
 
+.imgContainer {
+    display: flex;
+    justify-content: center;
+}
+
 .heroImg {
-    width: 50%;
+    width: 70%;
     z-index: 1;
 
     animation-name: floating;
@@ -99,10 +105,29 @@
 
 @media  screen and (max-width: 830px) {
     .container {
-        flex-direction: column-reverse;
+        flex-direction: column-reverse; 
+        gap: 2rem;
+
     }
 
     .content {
         align-items: center;
+    }
+
+    .description {
+        text-align: center;
+    }
+
+    .title {
+        text-align: center;
+    }
+}
+
+@media  screen and (max-width: 1200px) {
+    .container {
+        gap: 4rem;
+    }
+    .heroImg {
+        width: 90%;
     }
 }
