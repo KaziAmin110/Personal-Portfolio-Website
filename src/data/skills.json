@@ -8,6 +8,10 @@
       "imageSrc": "skills/css.png"
     },
     {
+      "title": "Javascript",
+      "imageSrc": "skills/javascript.png"
+    },
+    {
       "title": "React",
       "imageSrc": "skills/react.png"
     },
@@ -16,15 +20,31 @@
       "imageSrc": "skills/node.png"
     },
     {
-      "title": "GraphQL",
-      "imageSrc": "skills/graphql.png"
+      "title": "Express",
+      "imageSrc": "skills/express.png"
     },
     {
       "title": "MongoDB",
       "imageSrc": "skills/mongodb.png"
     },
     {
-      "title": "Figma",
-      "imageSrc": "skills/figma.png"
+      "title": "PostgreSQL",
+      "imageSrc": "skills/postgres.png"
+    },
+    {
+      "title": "MySQL",
+      "imageSrc": "skills/mysql.png"
+    },
+    {
+      "title": "Jest",
+      "imageSrc": "skills/jest.png"
+    },
+    {
+      "title": "Git",
+      "imageSrc": "skills/git.png"
+    },
+    {
+      "title": "Docker",
+      "imageSrc": "skills/docker.png"
     }
   ]

@@ -8,6 +8,27 @@ export const Experience = () => {
     <section id="experience" className={styles.container}>
       <h2 className={styles.title}>Experience</h2>
       <div className={styles.content}>
+        <ul className={styles.history}>
+          {history.map((histItem, id) => {
+            return (
+              <li key={id} className={styles.historyItem}>
+                <img
+                  src={"/assets/" + histItem.imageSrc}
+                  alt={`${histItem.organization} Logo`}
+                />
+                <div className={styles.historyItemDetails}>
+                  <h3>{`${histItem.role} @ ${histItem.organization}`}</h3>
+                  <p>{`${histItem.startDate} - ${histItem.endDate}`}</p>
+                  <ul>
+                    {histItem.experiences.map((experience, id) => {
+                      return <li key={id}>{experience}</li>;
+                    })}
+                  </ul>
+                </div>
+              </li>
+            );
+          })}
+        </ul>
         <div className={styles.skills}>
           {skills.map((skill, id) => {
             return (
@@ -20,27 +41,6 @@ export const Experience = () => {
             );
           })}
         </div>
-        <ul className={styles.history}> 
-          {history.map((histItem, id) => {
-            return (
-              <li key={id} className={styles.historyItem}>
-                <img
-                  src={"/assets/" + histItem.imageSrc}
-                  alt={`${histItem.organization} Logo`}
-                />
-                <div className={styles.historyItemDetails}>
-                  <h3>{`${histItem.role}, ${histItem.organization}`}</h3>
-                  <p>{`${histItem.startDate} - ${histItem.endDate}`}</p>
-                  <ul>
-                    {histItem.experiences.map((experience, id) => {
-                      return <li key={id}>{experience}</li>;
-                    })}
-                  </ul>
-                </div>
-              </li>
-            );
-          })}
-        </ul>
       </div>
     </section>
   );

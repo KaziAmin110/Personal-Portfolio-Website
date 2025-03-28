@@ -1,29 +1,18 @@
 [
     {
-      "role": "Software Engineer",
-      "organization": "Google",
-      "startDate": "Sept, 2022",
-      "endDate": "Present",
-      "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-      "imageSrc": "history/google.png"
+      "role": "Undergraduate ML Research Assistant",
+      "organization": "University of Central Florida",
+      "startDate": "Jan 2024",
+      "endDate": "May 2024",
+      "experiences": ["Explored the relationship between social media platforms and network science, aiming to improve the detection of malicious accounts on social networks using anomaly-detection algorithms.", "Improved random forest models using gathered clustered coeffient scores to achieve an overall 15% increase in detection accuray using scikit-learn.", "Performed end-to-end data lifecycle tasks using Python including data extraction, cleaning, and modeling, for weekly reports using Numpy, Pandas, and Matplotlib."],
+      "imageSrc": "history/ucf.png"
     },
     {
-      "role": "UI Designer",
-      "organization": "Mirosoft",
+      "role": "Commercial Property Analytics Intern",
+      "organization": "Palm Beach County",
       "startDate": "Aug, 2021",
       "endDate": "Aug, 2022",
-      "experiences": ["Worked on Windows 11", "Designed the control panel"],
-      "imageSrc": "history/microsoft.png"
-    },
-    {
-      "role": "SWE Intern",
-      "organization": "Netflix",
-      "startDate": "Apr, 2020",
-      "endDate": "Jun, 2020",
-      "experiences": [
-        "Worked on component library",
-        "Helped create UI components"
-      ],
-      "imageSrc": "history/netflix.png"
+      "experiences": ["Optimized property appraisal processes by leveraging SQL and SPSS to reduce the number of parcels requiring physical appraisal in Palm Beach County.", "Developed autonomous Python scripts to update pre-existing property data to ensure that over 5,000 parcels were up to date for the 2022 Property Tax Roll.", "Assisted commercial property appraisers in creating spreadsheets and visual diagrams of property tax increases using Excel (VLookup, Pivot Tables, Index/Match) and Tableau"],
+      "imageSrc": "history/pbc.png"
     }
   ]
