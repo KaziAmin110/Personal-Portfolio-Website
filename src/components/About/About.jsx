@@ -4,7 +4,7 @@ import styles from "./About.module.css";
 export const About = () => {
   return (
     <section className={styles.container} id="about">
-      <h2 className={styles.title}>About</h2>
+      <h2 className={styles.title}>About Me</h2>
       <div className={styles.content}>
         <img
           src="assets/about/computerIcon.png"
@@ -18,7 +18,7 @@ export const About = () => {
               <h3>Frontend Developer</h3>
               <p>
                 I'm a frontend developer with experience in building responsive
-                and optimized sites
+                designs and optimized client side code.
               </p>
             </div>
           </li>
@@ -27,18 +27,22 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               <p>
-                I have expereicne developing fast and optimised backend systems
-                and API's
+                I have experience developing fast and optimised backend
+                services.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src="assets/about/cursorIcon.png" alt="UI icon" />
+            <img
+              src="assets/about/dataIcon.png"
+              alt="UI icon"
+              className={styles.dataImage}
+            />
             <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
+              <h3>Data Analyst</h3>
               <p>
-                I have designed multiple landing pages and have created design
-                systems as well
+                I have experience using Data as a means of coming up with
+                meaningful business insights.
               </p>
             </div>
           </li>

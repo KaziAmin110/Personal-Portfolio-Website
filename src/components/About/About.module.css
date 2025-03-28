@@ -50,6 +50,7 @@
     background-size: 0 100%;
     background-repeat: no-repeat;
     transition: 0.4s;
+    gap: 2rem;
 }
 
 .aboutItem:hover {
@@ -63,6 +64,11 @@
 
 .aboutItem p {
     font-size: 25px;
+}
+
+.dataImage {
+    margin-left: 10px;
+    width: 4%;
 }
 
 @media screen and (max-width: 830px) {
@@ -100,10 +106,23 @@
     .aboutImage {
         width: 35%;
     }
+    .dataImage {
+        width: 10%;
+    }
 }
 
 @media screen and (max-width: 1250px) {
     .aboutImage {
         width: 40%;
+    }
+    .dataImage {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 835px) {
+
+    .dataImage {
+        width: 11%;
     }
 }
