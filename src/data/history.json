@@ -10,9 +10,9 @@
     {
       "role": "Commercial Property Analytics Intern",
       "organization": "Palm Beach County",
-      "startDate": "Aug, 2021",
-      "endDate": "Aug, 2022",
-      "experiences": ["Optimized property appraisal processes by leveraging SQL and SPSS to reduce the number of parcels requiring physical appraisal in Palm Beach County.", "Developed autonomous Python scripts to update pre-existing property data to ensure that over 5,000 parcels were up to date for the 2022 Property Tax Roll.", "Assisted commercial property appraisers in creating spreadsheets and visual diagrams of property tax increases using Excel (VLookup, Pivot Tables, Index/Match) and Tableau"],
+      "startDate": "Jun 2022",
+      "endDate": "Aug 2022",
+      "experiences": ["Optimized property appraisal processes by leveraging SQL and SPSS to reduce the number of parcels requiring physical appraisal in Palm Beach County.", "Developed autonomous Python scripts to update pre-existing property data to ensure that over 5,000 parcels were up to date for the 2022 Property Tax Roll.", "Assisted commercial property appraisers in creating spreadsheets and visual diagrams of property tax increases using Excel (VLookup, Pivot Tables, Index/Match) and Tableau."],
       "imageSrc": "history/pbc.png"
     }
   ]

@@ -1,26 +1,26 @@
 [
     {
-      "title": "Project A",
+      "title": "Rate My Peer",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
+      "description": "Full-Stack web and mobile application which assists instructors in tracking group progress using anonymous peer reviews.",
+      "skills": ["React.js", "Express", "Flutter", "PostgreSQL", "Redis", "Jest"],
       "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "source": "https://github.com/muzamil-dev/Peer-Review-MERN-Stack"
     },
     {
-      "title": "Project B",
+      "title": "Eventify (Ongoing)",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
+      "description": "Full-Stack event management platform to help university student organizations manage thier club.",
+      "skills": ["Node.js", "Express", "PostgreSQL", "Redis", "Jest", "BullMQ"],
       "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "source": "https://github.com/KaziAmin110/Eventify"
     },
     {
-      "title": "Project C",
+      "title": "ContactVault",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
+      "description": "Full-Stack web application to help users manage their personal contacts in a secure manner.",
+      "skills": ["Linux", "Apache", "MySQL", "PHP", "Docker", "Postman"],
       "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "source": "https://github.com/KaziAmin110/ContactVault"
     }
   ]

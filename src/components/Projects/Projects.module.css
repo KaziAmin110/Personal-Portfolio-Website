@@ -9,6 +9,7 @@
 
 .title {
     font-size: 35px;
+    margin-bottom: 50px;
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
@@ -17,10 +18,10 @@
 .projects {
     margin-top: 37px;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: row;
     justify-content: space-between;
-    gap: 15px;
+    gap: 35px;
     width: 100%;
 }
 
@@ -32,6 +33,13 @@
 
 @media screen and (max-width: 2030px) {
     .projects {
-        justify-content: center;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .projects {
+        flex-direction: column;
+        align-items: center ;
     }
 }
