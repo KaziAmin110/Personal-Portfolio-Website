@@ -3,11 +3,11 @@
 .container {
     display: flex;
     flex-direction: column;
-    border-radius: 10px;
+    border-radius: 2.5rem;
     background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
     box-shadow: 0 16px 14px 0 #04152d;
     padding: 18px 24px;
-    max-width: 345px;
+    max-width: 800px;
 }
 
 .image {
@@ -57,6 +57,9 @@
     font-weight: 600;
     border-radius: 100px;
     background: var(--color-primary);
-    padding: 1px 22px;
+    padding: 5px 25px;
 }
 
+.github_logo {
+    width: 10%;
+}

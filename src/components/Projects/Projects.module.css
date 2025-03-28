@@ -17,10 +17,21 @@
 .projects {
     margin-top: 37px;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 15px;
     width: 100%;
+}
+
+@media screen and (max-width: 3050px) {
+    .projects {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 2030px) {
+    .projects {
+        justify-content: center;
+    }
 }

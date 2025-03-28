@@ -2,9 +2,12 @@
 
 .container {
     color: var(--color-text);
-    margin-top: 79px;
+    margin-top: 125px;
     margin-left: 10%;
     margin-right: 10%;
+
+    position: relative;
+    z-index: 1;
 }
 
 .title {
