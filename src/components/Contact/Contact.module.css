@@ -38,6 +38,10 @@
     gap: 25px;
 }
 
+.link:hover {
+    text-decoration: underline;
+}
+
 .link a {
     color: var(--color-text);
     text-decoration: none;

@@ -17,6 +17,10 @@
     color: var(--color-text);
 }
 
+.title:hover {
+    text-decoration: underline;
+}
+
 .menu {
     display: flex;
 }
@@ -34,6 +38,10 @@
     font-size: 25px;
     color: var(--color-text);
     text-decoration: none;
+}
+
+.menuItems a:hover {
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 830px) {
