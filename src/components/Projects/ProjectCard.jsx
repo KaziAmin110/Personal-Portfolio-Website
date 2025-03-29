@@ -8,7 +8,7 @@ export const ProjectCard = ({
 }) => {
   return (
     <div key={id} className={styles.container}>
-      <img
+      <video
         className={styles.image}
         src={`/assets/${imageSrc}`}
         alt={`Image of ${title}`}
@@ -25,7 +25,7 @@ export const ProjectCard = ({
         })}
       </ul>
       <div className={styles.links}>
-        <a href={source} className={styles.link}>
+        <a href={source} className={styles.link} target="_blank">
           Source
         </a>
       </div>

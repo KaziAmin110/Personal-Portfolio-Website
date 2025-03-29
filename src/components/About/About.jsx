@@ -8,7 +8,7 @@ export const About = () => {
       <div className={styles.content}>
         <img
           src="assets/about/computerIcon.png"
-          alt="Me Sitting with a laptop"
+          alt="Computer Icon Image"
           className={styles.aboutImage}
         />
         <ul className={styles.aboutItems}>

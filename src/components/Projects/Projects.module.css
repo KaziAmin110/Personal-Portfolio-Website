@@ -20,9 +20,9 @@
     display: flex;
     align-items: flex-start;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     gap: 35px;
-    width: 100%;
 }
 
 @media screen and (max-width: 3050px) {

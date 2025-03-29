@@ -10,9 +10,18 @@ export const Hero = () => {
           I'm a full-stack developer with over 2 years of experience using React
           and NodeJS. Reach out if you would like to learn more!
         </p>
-        <a href="mailto:kaziamin1239@gmail.com" className={styles.contactBtn}>
-          Contact Me
-        </a>
+        <div className={styles.heroBtns}>
+          <a href="mailto:kaziamin1239@gmail.com" className={styles.contactBtn}>
+            Contact
+          </a>
+          <a
+            href="/assets/hero/Kazi_Amin_Resume.pdf"
+            className={styles.contactBtn}
+            target="_blank"
+          >
+            Resume
+          </a>
+        </div>
       </div>
       <div className={styles.imgContainer}>
         <img

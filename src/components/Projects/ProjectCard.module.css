@@ -3,15 +3,17 @@
 .container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     border-radius: 2.5rem;
     background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
     box-shadow: 0 16px 14px 0 #04152d;
     padding: 18px 24px;
-    max-width: 800px;
 }
 
 .image {
     margin-bottom: 26px;
+    width: 100%;
+    border-radius: 1.25em;
 }
 
 .title {
@@ -59,7 +61,17 @@
     border-radius: 100px;
     background: var(--color-primary);
     padding: 5px 25px;
+    margin-top: 25px;    
 }
+
+.link:hover {
+    background-color: greenyellow;
+    color: black;
+    padding: 8px 40px;
+    transform: translateY(-5px);
+}
+
+
 
 .github_logo {
     width: 10%;

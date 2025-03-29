@@ -58,7 +58,7 @@
 }
 
 .aboutItem h3 {
-    font-size: 25px;
+    font-size: 32px;
     font-weight: 600;
 }
 
@@ -113,11 +113,12 @@
 
 @media screen and (max-width: 1250px) {
     .aboutImage {
-        width: 40%;
+        display: none;
     }
     .dataImage {
         width: 20%;
     }
+
 }
 
 @media screen and (max-width: 835px) {
