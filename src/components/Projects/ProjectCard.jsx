@@ -8,9 +8,9 @@ export const ProjectCard = ({
 }) => {
   return (
     <div key={id} className={styles.container}>
-      <video
+      <img
         className={styles.image}
-        src={`/assets/${imageSrc}`}
+        src={imageSrc}
         alt={`Image of ${title}`}
       />
       <h3 className={styles.title}>{title}</h3>

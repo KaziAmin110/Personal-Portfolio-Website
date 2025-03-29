@@ -1,7 +1,7 @@
 [
     {
       "title": "Rate My Peer",
-      "imageSrc": "projects/RateMyPeer.gif",
+      "imageSrc": "/assets/projects/RateMyPeer.gif",
       "description": "Full-Stack web and mobile application which assists instructors in tracking group progress using anonymous peer reviews.",
       "skills": ["React.js", "Express", "Flutter", "PostgreSQL", "Redis", "Jest"],
       "demo": "https://www.example.com",
@@ -9,7 +9,7 @@
     },
     {
       "title": "ContactVault",
-      "imageSrc": "projects/ContactVault.mp4",
+      "imageSrc": "https://imgur.com/rWm3IAm.gif",
       "description": "Full-Stack web application to help users manage their personal contacts in a secure manner.",
       "skills": ["Linux", "Apache", "MySQL", "PHP", "Docker", "Postman"],
       "demo": "https://www.example.com",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Eventify (Ongoing)",
-      "imageSrc": "projects/project.png",
+      "imageSrc": "/assets/projects/project.png",
       "description": "Full-Stack event management platform which helps student organizations at Univerisites manage thier organizations more efficiently.",
       "skills": ["Node.js", "Express", "PostgreSQL", "Redis", "Jest", "BullMQ"],
       "demo": "https://www.example.com",
