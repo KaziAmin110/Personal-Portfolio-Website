@@ -18,7 +18,7 @@
     {
       "title": "Eventify (Ongoing)",
       "imageSrc": "/assets/projects/project.png",
-      "description": "Full-Stack event management platform which helps student organizations at Univerisites manage thier organizations more efficiently.",
+      "description": "Full-Stack event management platform which helps student organizations at Universities manage thier organizations more efficiently.",
       "skills": ["Node.js", "Express", "PostgreSQL", "Redis", "Jest", "BullMQ"],
       "demo": "https://www.example.com",
       "source": "https://github.com/KaziAmin110/Eventify"
