@@ -1,7 +1,7 @@
 [
     {
       "title": "Rate My Peer",
-      "imageSrc": "/assets/projects/RateMyPeer.gif",
+      "imageSrc": "/assets/projects/RateMyPeer.mp4",
       "description": "Full-Stack web and mobile application which assists instructors in tracking group progress using anonymous peer reviews.",
       "skills": ["React.js", "Express", "Flutter", "PostgreSQL", "Redis", "Jest"],
       "demo": "https://www.example.com",
@@ -9,7 +9,7 @@
     },
     {
       "title": "ContactVault",
-      "imageSrc": "https://imgur.com/rWm3IAm.gif",
+      "imageSrc": "/assets/projects/ContactVault.mp4",
       "description": "Full-Stack web application to help users manage their personal contacts in a secure manner.",
       "skills": ["Linux", "Apache", "MySQL", "PHP", "Docker", "Postman"],
       "demo": "https://www.example.com",

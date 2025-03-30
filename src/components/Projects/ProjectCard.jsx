@@ -8,11 +8,24 @@ export const ProjectCard = ({
 }) => {
   return (
     <div key={id} className={styles.container}>
-      <img
-        className={styles.image}
-        src={imageSrc}
-        alt={`Image of ${title}`}
-      />
+      {imageSrc.endsWith(".mp4") ? (
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className={styles.image}
+          src={imageSrc}
+          typeof="video/mp4"
+          alt={`Image of ${title}`}
+        />
+      ) : (
+        <img
+          src={imageSrc}
+          alt={`Image of ${title}`}
+          className={styles.image}
+        />
+      )}
       <h3 className={styles.title}>{title}</h3>
       <p className={styles.description}>{description}</p>
       <ul className={styles.skills}>
