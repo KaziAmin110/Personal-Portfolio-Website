@@ -10,7 +10,7 @@
     {
       "title": "ContactVault",
       "imageSrc": "/assets/projects/ContactVault.mp4",
-      "description": "Full-Stack web application to help users manage their personal contacts in a secure manner.",
+      "description": "Full-Stack web application designed to securely manage and organize personal contacts, ensuring privacy and efficient management.",
       "skills": ["Linux", "Apache", "MySQL", "PHP", "Docker", "Postman"],
       "demo": "https://www.example.com",
       "source": "https://github.com/KaziAmin110/ContactVault"
@@ -18,7 +18,7 @@
     {
       "title": "Eventify (Ongoing)",
       "imageSrc": "/assets/projects/project.png",
-      "description": "Full-Stack event management platform which helps student organizations at Universities manage thier organizations more efficiently.",
+      "description": "Full-Stack event management platform designed to streamline the operations of student organizations at universities, enabling them to manage their events and activities more effectively and efficiently.",
       "skills": ["Node.js", "Express", "PostgreSQL", "Redis", "Jest", "BullMQ"],
       "demo": "https://www.example.com",
       "source": "https://github.com/KaziAmin110/Eventify"
