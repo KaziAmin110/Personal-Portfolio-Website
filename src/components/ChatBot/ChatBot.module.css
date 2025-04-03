@@ -1,0 +1,120 @@
+@import "../../vars.css";
+
+/* ChatBot.module.css */
+.container {
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    z-index: 50;
+  }
+  
+  .chatButton {
+    background-color: #007bff;;
+    color: white;
+    border: none;
+    border-radius: 13px;
+    padding: 15px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: transform 0.1s ease; /* Smooth transition */
+  }
+
+  .shake {
+    animation: shake 0.5s; /* Apply shake animation */
+  }
+  
+  .chatWindow {
+    position: absolute;
+    bottom: 70px; /* Adjust based on button size */
+    right: 0;
+    width: 300px;
+    background-color: white;
+    border: 5px solid darkblue;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chatHeader {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .closeButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .chatMessages {
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: auto;
+    max-height: 250px;
+  }
+  
+  .message {
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    max-width: 70%;
+  }
+  
+  .userMessage {
+    background-color: #e0f7fa;
+    align-self: flex-end;
+  }
+  
+  .botMessage {
+    background-color: #f0f0f0;
+    align-self: flex-start;
+  }
+
+  .chatImage {
+    max-width: 25px;
+
+  }
+  
+  .chatInput {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .chatInput input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+  
+  .chatInput button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+  }
+  
