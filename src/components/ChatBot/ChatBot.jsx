@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import styles from "./ChatBot.module.css";
+// import { getResumeAnswer } from "./resumeQA";
 
 const ChatBot = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +23,7 @@ const ChatBot = () => {
       setMessages((prevMessages) => [...prevMessages, newUserMessage]);
       setInput("");
 
-      // Simulate bot response (replace with actual bot logic)
+      // Simulate bot response
       setTimeout(() => {
         const botResponse = generateBotResponse(input);
         const newBotMessage = { text: botResponse, sender: "bot" };
@@ -32,14 +33,20 @@ const ChatBot = () => {
   };
 
   const generateBotResponse = (userInput) => {
-    // Basic example, replace with your bot's logic
     const lowerInput = userInput.toLowerCase();
     if (lowerInput.includes("hello") || lowerInput.includes("hi")) {
       return "Hello! How can I help you?";
     } else if (lowerInput.includes("projects")) {
       return "You can find my projects in the projects section of my portfolio.";
+    } else if (lowerInput.includes("experience")) {
+      return "You can find my past experiences in the experience section of my portfolio.";
     } else if (lowerInput.includes("contact")) {
       return "Feel free to reach out via the contact form or my email.";
+    } else if (
+      lowerInput.includes("tell me about yourself") ||
+      lowerInput.includes("brief description")
+    ) {
+      return "Sure! My name is Kazi, I'm currently a junior studying computer science at the University of Central Florida and I love software engineering and solving problems!";
     } else {
       return "I'm still learning, but I'll do my best to help!";
     }

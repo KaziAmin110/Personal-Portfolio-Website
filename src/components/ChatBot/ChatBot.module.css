@@ -3,7 +3,7 @@
 /* ChatBot.module.css */
 .container {
     position: fixed;
-    bottom: 20px;
+    bottom: 25px;
     right: 25px;
     z-index: 50;
   }
