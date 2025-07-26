@@ -1,18 +1,50 @@
 [
-    {
-      "role": "Undergraduate ML Research Assistant",
-      "organization": "University of Central Florida",
-      "startDate": "Jan 2024",
-      "endDate": "May 2024",
-      "experiences": ["Explored the relationship between social media platforms and network science, aiming to improve the detection of malicious accounts on social networks using anomaly-detection algorithms.", "Improved random forest models using gathered clustered coeffient scores to achieve an overall 15% increase in detection accuray using scikit-learn.", "Performed end-to-end data lifecycle tasks using Python including data extraction, cleaning, and modeling, for weekly reports using Numpy, Pandas, and Matplotlib."],
-      "imageSrc": "history/ucf.png"
-    },
-    {
-      "role": "Commercial Property Analytics Intern",
-      "organization": "Palm Beach County",
-      "startDate": "Jun 2022",
-      "endDate": "Aug 2022",
-      "experiences": ["Optimized property appraisal processes by leveraging SQL and SPSS to reduce the number of parcels requiring physical appraisal in Palm Beach County.", "Developed autonomous Python scripts to update pre-existing property data to ensure that over 5,000 parcels were up to date for the 2022 Property Tax Roll.", "Assisted commercial property appraisers in creating spreadsheets and visual diagrams of property tax increases using Excel (VLookup, Pivot Tables, Index/Match) and Tableau."],
-      "imageSrc": "history/pbc.png"
-    }
-  ]
+  {
+    "role": "Secretary",
+    "organization": "Village Mentors @ University of Central Florida",
+    "startDate": "Apr 2025",
+    "endDate": "Present",
+    "experiences": [
+      "Managing end-to-end logistics and promotion for bi-weekly events, driving a 40% increase in average meeting attendance for over 50 members.",
+      "Directing a remote mentorship initiative for students in Ghana, involving recruiting and leading 10 mentors to deliver technical workshops in foundational software engineering skills.",
+      "Driving a 25% growth in club membership by managing communication campaigns and promotional materials for all outreach events."
+    ],
+    "imageSrc": "history/villagementors.png"
+  },
+  {
+    "role": "Web Development Intern",
+    "organization": "Money Habitudes LLC",
+    "startDate": "Apr 2025",
+    "endDate": "Aug 2025",
+    "experiences": [
+      "Spearheaded the migration of a legacy WordPress site to a modern full-stack application using Next.js and React, resulting in a 60% improvement in page load speeds and enhanced site scalability.",
+      "Boosted user interaction rates by 25% through strategic implementation of Server-Side Rendering (SSR) techniques and on-page SEO, significantly improving the site’s Core Web Vitals and search rankings.",
+      "Engineered an AI-powered chatbot using Retrieval-Augmented Generation (RAG) to automate responses to Frequently Asked Questions, increasing average user session duration by 50% and reducing support ticket volume."
+    ],
+    "imageSrc": "history/money_habitudes_logo.jpeg"
+  },
+  {
+    "role": "Undergraduate ML Research Assistant",
+    "organization": "University of Central Florida",
+    "startDate": "Jan 2024",
+    "endDate": "May 2024",
+    "experiences": [
+      "Explored the relationship between social media platforms and network science, aiming to improve the detection of malicious accounts on social networks using anomaly-detection algorithms.",
+      "Improved random forest models using gathered clustered coeffient scores to achieve an overall 15% increase in detection accuray using scikit-learn.",
+      "Performed end-to-end data lifecycle tasks using Python including data extraction, cleaning, and modeling, for weekly reports using Numpy, Pandas, and Matplotlib."
+    ],
+    "imageSrc": "history/ucf.png"
+  },
+  {
+    "role": "Commercial Property Analytics Intern",
+    "organization": "Palm Beach County",
+    "startDate": "Jun 2022",
+    "endDate": "Aug 2022",
+    "experiences": [
+      "Optimized property appraisal processes by leveraging SQL and SPSS to reduce the number of parcels requiring physical appraisal in Palm Beach County.",
+      "Developed autonomous Python scripts to update pre-existing property data to ensure that over 5,000 parcels were up to date for the 2022 Property Tax Roll.",
+      "Assisted commercial property appraisers in creating spreadsheets and visual diagrams of property tax increases using Excel (VLookup, Pivot Tables, Index/Match) and Tableau."
+    ],
+    "imageSrc": "history/pbc.png"
+  }
+]
