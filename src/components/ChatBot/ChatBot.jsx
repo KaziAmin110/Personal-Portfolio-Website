@@ -4,7 +4,9 @@ import styles from "./ChatBot.module.css";
 
 const ChatBot = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [messages, setMessages] = useState([]);
+  const [messages, setMessages] = useState([
+    { text: "Welcome to KaziBot! How can I help you?", sender: "bot" },
+  ]);
   const [input, setInput] = useState("");
   const [shake, setShake] = useState(false);
   const chatWindowRef = useRef(null);
